@@ -1,0 +1,71 @@
+
+.contenedor
+{
+    padding: 10px;
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: 
+    "header  header  nav"
+    "ads  contenido ads1"
+    "footer  footer  footer"
+    ;
+}
+
+.contenedor .header .le
+{
+    color: white;
+}
+.contenedor .header
+{
+    grid-area: header;
+    text-align: start;
+    
+}
+
+.contenedor .nav
+{
+    grid-area: nav;
+    
+}
+
+.contenedor .contenido
+{
+    grid-area: contenido;
+    text-align: center;
+}
+
+.contenedor .contenido .la
+{
+    color: white;
+}
+
+.contenedor .contenido .li
+{
+    color: white;
+}
+
+.contenedor .contenido .a
+{
+    color: white;
+}
+
+.contenedor .ads
+{
+    grid-area: ads;
+   
+}
+
+.contenedor .ads1
+{
+    grid-area: ads1;
+    
+}
+
+.contenedor .footer
+{
+    grid-area: footer;
+    
+}
